@@ -62,13 +62,13 @@ experiences:
       time: 2020 - Present
       company: Google, Paris (France)
       details: |
-        Pre-sales role (Solutions Architect @ GitLab) with an expertise on Site 
-        Reliability Engineering (SRE), DevOps, CI/CD, infrastructure-as-code 
+        Pre-sales role (= Solutions Architect @ GitLab) with a recognized expertise on
+        Site Reliability Engineering (SRE), DevOps, CI/CD, infrastructure-as-code 
         (Terraform), containers, serverless and Kubernetes.
           - Member of the "Customer Engineer SRE" community, authorized to talk about SRE outside of Google.
           - Member of the "Art of SLOs Champions" community, authorized to deliver The Art of SLOs workshops outside of Google.
           - Official maintainer of the SLO Generator, hosted on the public Google GitHub repo.
-          - Attended SRE Edu, the onboarding session of new SREs at Google.
+          - Attended (and aced!) SRE Edu, the onboarding session of new SREs at Google.
           - Helped 500+ customers understand what SRE is, and migrate workloads to SRE.
     - role: DevOps Engineer | Cloud Architect | Data Architect
       time: 2018 - 2020
