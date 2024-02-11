@@ -1,265 +1,155 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Laurent Vaylet
+  tagline: "[DevOps Engineer|SRE]"
+  avatar: 1688578492709.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: laurent.vaylet@gmail.com
+  phone: +33 6 87 96 69 75
+  timezone: Europe/Paris
+  citizenship: French (FR)
+  linkedin: laurent-vaylet
+  github: lvaylet
+  gitlab:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Proficient
 
-        - idiom: French
-          level: Professional
+      - idiom: French
+        level: Native
 
-        - idiom: Spanish
-          level: Professional
+  interests:
+    title: Interests
+    info:
+      - item: Woodworking
+        link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - item: Piano
+        link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+      - item: Tennis
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    Customer-oriented Googler and former DevOps Engineer - with 8 years of experience 
+    in this role - seeking a Site Reliability Engineer (SRE) role at GitLab. Eager to
+    leverage proven automation, infrastructure optimization, and troubleshooting skills 
+    to ensure system stability, performance, and scalability. Lifelong learner and 
+    continous improvement practitioner. Proud husband and father of two daughters.
+
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Education
+  info:
+    - degree: MSc in Mechanical Engineering
+      university: Institut National des Sciences Appliquées (INSA) Lyon
+      time: 200 - 2005
+      details:
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiences
+  info:
+    - role: Cloud Customer Engineer, specializing on SRE and DevOps
+      time: 2020 - Present
+      company: Google, Paris (France)
+      details: |
+        Pre-sales role (Solutions Architect @ GitLab) with an expertise on Site 
+        Reliability Engineering (SRE), DevOps, CI/CD, infrastructure-as-code 
+        (Terraform), containers, serverless and Kubernetes.
+          - Member of the "Customer Engineer SRE" community, authorized to talk about SRE outside of Google.
+          - Member of the "Art of SLOs Champions" community, authorized to deliver The Art of SLOs workshops outside of Google.
+          - Official maintainer of the SLO Generator, hosted on the public Google GitHub repo.
+          - Attended SRE Edu, the onboarding session of new SREs at Google.
+          - Helped 500+ customers understand what SRE is, and migrate workloads to SRE.
+    - role: DevOps Engineer | Cloud Architect | Data Architect
+      time: 2018 - 2020
+      company: Renault, Paris (France)
+      details: |
+        Contribute to the adoption and rise of Google Cloud Platform (GCP), from a full on-prem setup.
+          - Coached project teams made of software engineers, data engineers and data scientists on DevOps culture and best practices.
+          - Migrated the GCP Infrastructure-as-Code from Terraform 11 to Terraform 12.
+          - Created a Terraform module that lets end-users provision firewall rules in a critical GCP project with a self-service approach (compared to a centralized, slow and less secure approach before).
+          - Improved the security of the provisioning processes with terraform-validator and custom security policies/constraints.
+          - Automated the generation and storage of sensitive GCP credentials in Vault (compared to a mostly manual workflow based on GitLab CI variables before).
+    - role: DevOps Engineer | Software Engineer
+      time: 2018
+      company: Bruitparif, Paris (France)
+      details: |
+        - Architected, implemented and monitored the high-volume IoT and Big Data app supporting our measurement network [ Python, Docker, Resin.io, Prometheus, Grafana, Tableau ]
+        - Administered our on-premise data center [ vSphere, JIRA, GitLab, Docker ]
+        - Automated and simplifed manual processes [ Python, Bash, Ansible ]
+        - Administered our CI/CD toolchain [ Jenkins, GitLab CI, Docker, Linux ]
+    - role: DevOps Engineer | Infrastructure Engineer
+      time: 2015 - 2017
+      company: Talend, Paris (France)
+      details: |
+        - Automated processes and wrote scripts [ Python, Bash, .NET ]
+        - Administered our CI/CD server [ Jenkins, Linux ]
+        - Designed and implemented resilient REST APIs and web apps [ Python, Flask, Vue.js, Docker, Vagrant ]
+        - Administered Learning Management System [ TalentLMS ]
+        - Provisioned virtual lab environments in cloud provider [ Skytap, Python, Ansible ]
+        - Monitored infrastructure and applications [ Prometheus, Grafana, AlertManager ]
+        - Supported team on tools and methods [ Git, GitHub, GitLab, SharePoint ]
+        - Documented work [ MDwiki ]
+    - role: Misc
+      time: 2005 - 2017
+      company: Misc
+      details: |
+        Various other roles that might not be relevant to the one I am seeking right now. Let's discuss them if you think otherwise:
+          - Curriculum Developer @ Talend
+          - Academic Product Marketing Engineer @ National Instruments
+          - Pres-Sales Engineer @ MathWorks
+          - Training Engineer @ MathWorks
+          - Software Engineer @ Scilab Enterprises
+          - Software Engineer @ Renault Trucks
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Certifications
+  list:
+    - name: Cloud Professional DevOps Engineer
+      start: 2020
+      organization: Google
+    - name: Cloud Professional Cloud Architect
+      start: 2019
+      organization: Google
+    - name: Cloud Professional Data Engineer
+      start: 2019
+      organization: Google
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  title: OSS Contributions
+  contributions:
+    - title: SLO Generator
+      link: https://github.com/google/slo-generator
+      tagline: Official maintainer of the SLO Generator, a tool to compute and export Service Level Objectives (SLOs), Error Budgets and Burn Rates, using configurations written in YAML (or JSON) format.
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: SRE
+      level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Google Cloud Platform
+      level: 98%
 
-      - name: Angular
-        level: 98%
+    - name: Infrastructure-as-Code
+      level: 95%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: CI/CD
+      level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Automation / Scripting
+      level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: GitLab
+      level: 90%
